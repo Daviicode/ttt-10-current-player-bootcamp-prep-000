@@ -12,9 +12,9 @@ end
     
     
     
-def current_player(turn_count, token = "X")  
+def current_player(turn_count)  
   if turn_count(board) % 2 == 0 
-    return token
+    return "X"
   else 
     return "O"
   end
