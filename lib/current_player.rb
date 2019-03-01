@@ -6,6 +6,7 @@ def turn_count (board)
     puts #{count}
   counter += 1  
 end
+end
     
     
     
